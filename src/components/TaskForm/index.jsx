@@ -59,6 +59,7 @@ const TaskForm = ({onSubmit, removeall}) => {
                     className="task-inputtext"
                     value={task}
                     onChange={(event) => setTask(event.target.value)}
+                    autoComplete={false}
                     required
                 />
                 <div className="task-color">
